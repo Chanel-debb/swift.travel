@@ -73,28 +73,28 @@ const Tabtwo = () => {
           <View className='px-4 mt-6 flex-row justify-between'>
             <View className='px-2 ' >
               <Image
-                source={require("../../assets/images/couple.png")}
+                source={{ uri: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
                 className='w-10 h-10'
               />
               <StyledText className='text-lg font-semibold mt-2 text-sm '>Honeymoon</StyledText>
             </View>
             <View className='px-2 ' >
               <Image
-                source={require("../../assets/images/family.png")}
+                source={{ uri: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
                 className='w-10 h-10'
               />
               <StyledText className='text-lg font-semibold mt-2 text-sm '>Family Holiday</StyledText>
             </View>
             <View className='px-2 ' >
               <Image
-                source={require("../../assets/images/map.png")}
+                source={{ uri: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
                 className='w-10 h-10'
               />
               <StyledText className='text-lg font-semibold mt-2 text-sm '>Solo-Adventure</StyledText>
             </View>
             <View className='px-5 ' >
               <Image
-                source={require("../../assets/images/business-trip.png")}
+                source={{ uri: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
                 className='w-10 h-10'
               />
               <StyledText className='text-lg font-semibold mt-2 text-sm'>Business trip</StyledText>

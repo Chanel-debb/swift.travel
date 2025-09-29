@@ -1,6 +1,6 @@
 import { View, Text, Platform, TextInput, ScrollView, Image, Pressable, TouchableOpacity } from 'react-native';
 import { StyledText } from "@/components/StyledText";
-import { Stack, useRouter } from 'expo-router';
+import { Stack, useRouter, Link } from 'expo-router';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import Entypo from '@expo/vector-icons/Entypo';
 import FontAwesome from '@expo/vector-icons/FontAwesome';

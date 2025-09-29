@@ -37,6 +37,36 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />
         }}
       />
+      <Tabs.Screen
+        name="favourites"
+        options={{
+          title: 'favourites',
+          tabBarIcon: ({ color }) => <TabBarIcon name="heart" color={color} />
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'profile',
+          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />
+        }}
+      />
+      <Tabs.Screen
+        name="notifications"
+        options={{
+          title: 'notifications',
+          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />
+        }}
+      />
+      <Tabs.Screen
+        name="setting"
+        options={{
+          title: 'setting',
+          tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />
+        }}
+      />
+      
+     
     </Tabs>
 
     

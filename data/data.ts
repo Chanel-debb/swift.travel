@@ -1,3 +1,5 @@
+import Favourites from "@/app/(tabs)/favourites";
+
 export const popularDestinations = [
   {
     id: '1',
@@ -223,7 +225,8 @@ export const upcomingDestinations = [
       budget: '$180-280/day',
       midRange: '$280-450/day',
       luxury: '$450-800/day',
-      currency: 'USD'
+      currency: 'USD',
+      time:'22 hours ago'
     },
     rating: 4.8,
     reviewCount: 32450,
@@ -262,7 +265,8 @@ export const upcomingDestinations = [
       budget: '$120-180/day',
       midRange: '$180-300/day',
       luxury: '$300-600/day',
-      currency: 'USD'
+      currency: 'USD',
+      time:'12 hours ago'
     },
     rating: 4.7,
     reviewCount: 41890,
@@ -301,7 +305,8 @@ export const upcomingDestinations = [
       budget: '$150-220/day',
       midRange: '$220-350/day',
       luxury: '$350-700/day',
-      currency: 'USD'
+      currency: 'USD',
+      time:'13 hours ago'
     },
     rating: 4.5,
     reviewCount: 78920,
@@ -340,7 +345,8 @@ export const upcomingDestinations = [
       budget: '$100-150/day',
       midRange: '$150-250/day',
       luxury: '$250-450/day',
-      currency: 'USD'
+      currency: 'USD',
+      time:'15 hours ago'
     },
     rating: 4.9,
     reviewCount: 25670,

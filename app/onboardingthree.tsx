@@ -15,7 +15,7 @@ const onboardingThree = () =>{
             </View>
             <View className="mt-10 pt-10">
                 <Image 
-                source={require("../assets/images/note.png")}
+                source={{ uri: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
                 className="w-full h-[400px] object-cover "
                 />
                 <StyledText className="text-4xl font-bold py-3">Embark on global adventures</StyledText>
